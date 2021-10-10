@@ -1,0 +1,96 @@
+    * {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    body {
+        background-color: rgba(157, 248, 248, 0.568);
+    }
+    
+    .navbar {
+        background-color: rgb(75, 75, 187);
+        padding-top: 30px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .navbar-nav {
+        margin-left: 80%;
+    }
+    
+    .navbar-nav a {
+        margin-left: 15px;
+        margin-top: -20px;
+    }
+    
+    .nav-link {
+        color: white;
+        font-weight: bold;
+    }
+    
+    .nav-link:hover {
+        color: yellow;
+    }
+    
+    .navbar-brand {
+        color: white;
+        font-weight: bold;
+        margin-top: -20px;
+    }
+    
+    .navbar-brand:hover {
+        color: darkgrey;
+    }
+    
+    #main-content h1 {
+        margin-left: 20%;
+        margin-top: 80px;
+        color: rgb(25, 25, 53);
+        font-weight: bold;
+        font-size: 35px;
+    }
+    
+    #main-content p {
+        text-align: justify;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    
+    #main-content h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+    
+    #main-content #steps {
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    @media only screen and (max-width:768px) {
+        nav .navbar-toggler {
+            margin-right: 0;
+            margin-top: -20px;
+            border: none;
+            outline: none;
+        }
+        .navbar-toggler span {
+            color: white !important;
+            font-size: 20px;
+            /* background-color: white; */
+        }
+        #main-content h1,
+        h3 {
+            font-size: 18px;
+            margin-left: 5px;
+        }
+        #main-content p {
+            font-size: 15px;
+            word-spacing: -1px;
+            width: 95%;
+            margin-left: 5px;
+        }
+        #main-content #steps {
+            font-size: 15px;
+            width: 95%;
+        }
+    }

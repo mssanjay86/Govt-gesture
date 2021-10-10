@@ -1,0 +1,136 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgba(157, 248, 248, 0.568);
+}
+
+.navbar {
+    background-color: rgb(75, 75, 187);
+    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-nav {
+    margin-left: 80%;
+}
+
+.navbar-nav a {
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.navbar-brand:hover {
+    color: darkgrey;
+}
+
+.main {
+    overflow-x: hidden;
+}
+
+.main h2 {
+    position: relative;
+    top: 100px;
+    left: 550px;
+    font-weight: bold;
+}
+
+form .back {
+    background-color: rgba(103, 80, 139, 0.336);
+    width: 40%;
+}
+
+form {
+    margin: 12% 0 0 41%;
+}
+
+form input[type=text],
+[type=password],
+[type=email] {
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+form button {
+    margin: 14px;
+    border: none;
+    background-color: rgba(133, 25, 235, 0.699);
+    color: white;
+    border-radius: 10%;
+    font-size: 15px;
+}
+
+form #resbtn {
+    padding: 5px 15px
+}
+
+form #subbtn {
+    padding: 5px 15px
+}
+
+@media only screen and (max-width:768px) {
+    nav .navbar-toggler {
+        margin-right: 0;
+        margin-top: -20px;
+        border: none;
+        outline: none;
+    }
+    .navbar-toggler span {
+        color: white !important;
+        font-size: 20px;
+        /* background-color: white; */
+    }
+    .main h2 {
+        position: relative;
+        top: 103px;
+        left: 70px;
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+    }
+    form {
+        margin: 40% 0 0 41%;
+    }
+    form input[type=text],
+    [type=password],
+    [type=email] {
+        margin-bottom: 30px;
+        padding: 5px;
+        margin-left: -35%;
+        border: none;
+    }
+    form button {
+        margin: 30px 0 0 -10px;
+        border: none;
+        background-color: rgba(133, 25, 235, 0.699);
+        color: white;
+        border-radius: 5%;
+        font-size: 15px;
+    }
+    form #resbtn {
+        padding: 5px 15px;
+        margin-left: 71px;
+    }
+    form #subbtn {
+        padding: 5px 8px;
+        margin-left: -70px;
+    }
+}

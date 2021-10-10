@@ -1,0 +1,164 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgba(157, 248, 248, 0.568);
+}
+
+.navbar {
+    background-color: rgb(75, 75, 187);
+    padding-top: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-nav {
+    margin-left: 80%;
+}
+
+.navbar-nav a {
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.navbar-brand:hover {
+    color: darkgrey;
+}
+
+#main {
+    margin-top: 7%;
+    margin-left: 22%;
+}
+
+#main form input[type=text],
+[type=number],
+[type=date],
+textarea,
+select {
+    margin-bottom: 30px;
+    width: 60%;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#main h1,
+h2 {
+    margin-bottom: 20px;
+}
+
+#main h1 {
+    margin-left: 170px;
+}
+
+#main h2 {
+    width: 50%;
+    text-align: justify;
+    word-spacing: 1;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+#main button {
+    border: none;
+    background-color: rgba(133, 25, 235, 0.699);
+    color: white;
+    border-radius: 7%;
+    font-size: 15px;
+}
+
+form #resetbtn,
+#submitbtn {
+    padding: 10px 25px;
+    margin-left: 170px;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width:768px) {
+    nav .navbar-toggler {
+        margin-right: 0;
+        margin-top: -20px;
+        border: none;
+        outline: none;
+    }
+    .navbar-toggler span {
+        color: white !important;
+        font-size: 20px;
+        /* background-color: white; */
+    }
+    #main {
+        margin-top: 7%;
+        margin-left: 1%;
+    }
+    #main form {
+        margin-left: 10%;
+        margin-top: 20%;
+    }
+    #main form input[type=text],
+    [type=number],
+    [type=date],
+    textarea,
+    select {
+        margin-bottom: 30px;
+        width: 70%;
+        border: none;
+        padding: 5px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    #main h1,
+    h2 {
+        margin-bottom: 20px;
+    }
+    #main h1 {
+        margin-left: 30px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    #main h2 {
+        width: 70%;
+        text-align: justify;
+        word-spacing: -2px;
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    #main button {
+        border: none;
+        background-color: rgba(133, 25, 235, 0.699);
+        color: white;
+        border-radius: 5%;
+        font-size: 15px;
+    }
+    form #submitbtn {
+        padding: 5px 7px;
+        margin-left: 35px;
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+    form #resetbtn {
+        position: relative;
+        bottom: 141px;
+        padding: 5px 15px;
+    }
+    .table {
+        margin-top: 20%;
+    }
+}
